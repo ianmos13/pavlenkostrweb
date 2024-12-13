@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedback_datas",
+  "info": {
+    "singularName": "feedback-data",
+    "pluralName": "feedback-datas",
+    "displayName": "Что говорят о нас (слайдер)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    },
+    "city": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_atlas_expert_sliders",
+  "info": {
+    "singularName": "video-atlas-expert-slider",
+    "pluralName": "video-atlas-expert-sliders",
+    "displayName": "Видеоатлас эксперты слайдер",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

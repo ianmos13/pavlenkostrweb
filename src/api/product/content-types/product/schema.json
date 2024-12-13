@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "products",
+  "info": {
+    "singularName": "product",
+    "pluralName": "products",
+    "displayName": "Товары",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image_for_card": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "string"
+    },
+    "discontPrice": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "article": {
+      "type": "biginteger",
+      "required": true
+    },
+    "images_for_galery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "wb_url": {
+      "type": "string"
+    },
+    "ozon_url": {
+      "type": "string"
+    },
+    "link": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    }
+  }
+}

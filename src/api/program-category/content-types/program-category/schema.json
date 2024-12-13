@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "program_categories",
+  "info": {
+    "singularName": "program-category",
+    "pluralName": "program-categories",
+    "displayName": "Содержание программы (категории)"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}

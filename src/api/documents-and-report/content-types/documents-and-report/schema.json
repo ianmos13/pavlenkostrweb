@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documents_and_reports",
+  "info": {
+    "singularName": "documents-and-report",
+    "pluralName": "documents-and-reports",
+    "displayName": "Документы и отчёты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "file": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::documents-and-report-category.documents-and-report-category"
+    }
+  }
+}

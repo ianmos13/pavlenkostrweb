@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_locations_clinics",
+  "info": {
+    "singularName": "our-locations-clinic",
+    "pluralName": "our-locations-clinics",
+    "displayName": "Наши базы (клиники)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "decimal"
+    },
+    "lng": {
+      "type": "decimal"
+    },
+    "address": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "mentors": {
+      "type": "json"
+    },
+    "stats": {
+      "type": "text"
+    },
+    "city": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::our-locations-city.our-locations-city"
+    }
+  }
+}

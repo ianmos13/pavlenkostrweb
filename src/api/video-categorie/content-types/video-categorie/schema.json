@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "video_categories",
+  "info": {
+    "singularName": "video-categorie",
+    "pluralName": "video-categories",
+    "displayName": "Видео атлас(категории)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_locations_cities",
+  "info": {
+    "singularName": "our-locations-city",
+    "pluralName": "our-locations-cities",
+    "displayName": "Наши базы (города)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "city": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

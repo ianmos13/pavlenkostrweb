@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documents_and_report_categories",
+  "info": {
+    "singularName": "documents-and-report-category",
+    "pluralName": "documents-and-report-categories",
+    "displayName": "Документы и отчёты (категории)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}

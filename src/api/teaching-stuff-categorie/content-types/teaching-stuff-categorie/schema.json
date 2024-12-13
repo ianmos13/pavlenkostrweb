@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teaching_stuff_categories",
+  "info": {
+    "singularName": "teaching-stuff-categorie",
+    "pluralName": "teaching-stuff-categories",
+    "displayName": "Преподавательский состав (категории)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}

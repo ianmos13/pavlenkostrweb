@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teaching_staff_teacher_sliders",
+  "info": {
+    "singularName": "teaching-staff-teacher-slider",
+    "pluralName": "teaching-staff-teacher-sliders",
+    "displayName": "Преподовательский состав слайдер",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

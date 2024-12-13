@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "school_team_categories",
+  "info": {
+    "singularName": "school-team-categorie",
+    "pluralName": "school-team-categories",
+    "displayName": "Команда школы (категории)",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    }
+  }
+}

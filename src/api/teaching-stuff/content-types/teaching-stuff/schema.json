@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teaching_stuffs",
+  "info": {
+    "singularName": "teaching-stuff",
+    "pluralName": "teaching-stuffs",
+    "displayName": "Преподавательский состав"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "biography": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "city": {
+      "type": "string"
+    },
+    "teaching_stuff_categorie": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::teaching-stuff-categorie.teaching-stuff-categorie"
+    }
+  }
+}

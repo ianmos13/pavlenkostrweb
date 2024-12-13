@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "publications",
+  "info": {
+    "singularName": "publication",
+    "pluralName": "publications",
+    "displayName": "Публикации о школе",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "body": {
+      "type": "text"
+    },
+    "publication_categorie": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::publication-categorie.publication-categorie"
+    },
+    "link": {
+      "type": "uid",
+      "targetField": "body"
+    }
+  }
+}

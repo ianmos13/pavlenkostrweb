@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "enrolment_datas",
+  "info": {
+    "singularName": "enrolment-data",
+    "pluralName": "enrolment-datas",
+    "displayName": "Завершенные наборы",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "textOverlayImg": {
+      "type": "string"
+    },
+    "people": {
+      "type": "json"
+    },
+    "listeners": {
+      "type": "json"
+    },
+    "link": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}
